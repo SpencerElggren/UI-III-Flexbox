@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.2;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h1{
+	font-size: 50px;
+}
+
+body{
+	margin: 20px;
+	padding: 20px;
+	width: 90%
+}
+a{
+	margin: 5px;
+	color: gray;
+	text-decoration: none;
+}
+.navi{
+	display: flex;
+	margin: 5px;
+	justify-content: space-between;
+}
+
+header > section{
+	padding: 40px;
+}
+
+header{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: black 2px solid;
+}
+
+#photo{
+	display: flex;
+	justify-content: center;
+}
+
+#info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 40px 40px 0;
+}
+
+#second{
+	display: flex;
+	padding: 40px 40px 40px 0;
+	justify-content: space-between;
+}
+
+#headText{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+}
+
+#contact{
+	padding: 40px 40px 40px 0;
+	border-top: black 2px solid;
+}
+
+/*Services CSS properties*/
+
+h2{
+	font-size: 30px;
+	padding: 25px 25px 5px 0;
+}
+
+h3{
+	font-size: 20px;
+}
+
+.services{
+	margin-bottom: 35px;
+}
+
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	border-top: black 2px solid;
+	border-bottom: black 2px solid;
+}
+
+.box{
+	border: black 2px solid;
+	background-color: #F4F3F4;
+	margin: 25px 25px 25px 0;
+	padding: 10px;
+}
+
+ul{
+	list-style-type: square;
+}
+
+.facts{
+	margin: 25px 25px 25px 0;
+	display: flex;
+}
+
+.copyright{
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.box{display: flex; flex-direction: column;}
+}
